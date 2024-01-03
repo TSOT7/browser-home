@@ -1,18 +1,31 @@
+@font-face {
+    font-family: Guhu;
+    src: url(Assets/Fonts/GohuFont11NerdFont-Regular.ttf);
+}
+
+body {
+    background-image: url(Assets/Cyberpunk\ Pixel\ Art\ 1920x1080.jpg);
+    backdrop-filter: blur(30px);
+    
+}
+
 body {
     display: flex;
     min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
-    margin: 0; /* Remove default margin */
-    color: rgb(0, 0, 0);
-    background-image: url(Assets/Cyberpunk\ Pixel\ Art\ 1920x1080.jpg);
-    backdrop-filter: blur(30px);
-
+    align-items: flex-end;
+    margin: 0; /* to remove defaut margin to make blur cover full image */
+    
 }
-
 
 .footer {
-    margin-top: auto; /* Push the content to the bottom by pushing the margin top auto */
-    margin-left: 16px; /* Adjust margin as needed for the left space */
+    color: aliceblue;
+    font-family: Guhu;
+    font-size: 40px;
 }
+
+
+
+
 
 
 
