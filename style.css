@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+    margin: 0; /* Remove default margin */
+    color: rgb(0, 0, 0);
+    background-image: url(Assets/Cyberpunk\ Pixel\ Art\ 1920x1080.jpg);
+    backdrop-filter: blur(30px);
+
+}
+
+
+.footer {
+    margin-top: auto; /* Push the content to the bottom by pushing the margin top auto */
+    margin-left: 16px; /* Adjust margin as needed for the left space */
+}
+
+
+
+
